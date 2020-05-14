@@ -41,6 +41,6 @@ public class Editwork {
         System.out.println("Value Cleared");
         WebElement selected=driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[5]/div/div/input"));
         System.out.println("Selected Status = " + selected.isEnabled());
-    }
-    
+        driver.quit();
+    }  
 }
